@@ -1,0 +1,66 @@
+#aspectSelection button{
+    height: 50px;
+    width: 120px;
+}
+#aspectSelection{
+    width: 800px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position:absolute;
+}
+#alphaAspect p{
+    color: white;
+    font-size: 20px;
+}
+
+#alphaAspect{
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    border: 5px solid white;
+    text-align: center;
+}
+
+#backToSelector{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+#alphaAmtDisp{
+    color: greenyellow;
+}
+#alphaGainDisp{
+    color:greenyellow;
+}
+#alphaUpgrades{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px;
+}
+#alphaUpgrades {
+    display: grid;
+    grid-template-columns: repeat(3, 120px); /* 3 столбца по 100px каждый */
+    grid-template-rows: repeat(3, 120px); /* 3 ряда по 100px каждый */
+    gap: 5px; /* Отступ между кнопками */
+    padding-left: 80px;
+  }
+  
+#alphaUpgrades button {
+    width: 100%; /* Ширина кнопки 100% от ширины ячейки сетки */
+    height: 100%; /* Высота кнопки 100% от высоты ячейки сетки */
+    box-sizing: border-box; /* Учтем границы в расчетах */
+    text-align: center; /* Центрируем текст */
+    font-size: 10px; /* Изменяем размер текста */
+    border-radius: 20px;
+  }
+#alphaUpgrades span{
+    font-size: 14px;
+}
