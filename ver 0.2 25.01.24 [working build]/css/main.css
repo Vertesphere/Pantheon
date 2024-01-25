@@ -1,0 +1,117 @@
+
+#aspectSelection{
+    width: 1000px;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position:absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 100px); /* 3 столбца по 100px каждый */
+    grid-template-rows: repeat(5, 100px); /* 3 ряда по 100px каждый */
+    gap: 20px; /* Отступ между кнопками */
+    justify-content: center;
+}
+#aspectSelection button{
+    border-radius: 10px;
+    border: solid white;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+#aspectSelection button:hover{
+    transform: scale(1.2);
+}
+#alphaAspectSelect{
+    background-color: greenyellow;
+}
+#alphaAspect p{
+    color: white;
+    font-size: 20px;
+}
+
+#alphaAspect{
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    width: 1400px;
+    height: 800px;
+    border: 5px solid white;
+    text-align: center;
+}
+
+#backToSelector{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+#alphaAmtDisp{
+    color: greenyellow;
+}
+#alphaGainDisp{
+    color:greenyellow;
+}
+#alphaUpgrades{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px;
+}
+#alphaUpgrades {
+    display: grid;
+    grid-template-columns: repeat(8, 120px); /* 3 столбца по 100px каждый */
+    grid-template-rows: repeat(2, 120px); /* 3 ряда по 100px каждый */
+    gap: 10px; /* Отступ между кнопками */
+    justify-content: center;
+  }
+  
+#alphaUpgrades button {
+    width: 100%; /* Ширина кнопки 100% от ширины ячейки сетки */
+    height: 100%; /* Высота кнопки 100% от высоты ячейки сетки */
+    box-sizing: border-box; /* Учтем границы в расчетах */
+    text-align: center; /* Центрируем текст */
+    font-size: 10px; /* Изменяем размер текста */
+    border-radius: 20px;
+    transition-property: transform, background-color, border-radius;
+    transition-duration: 0.2s, 0.5s, 0.2s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    
+  }
+#alphaUpgrades span{
+    font-size: 14px;
+}
+#concentration button{
+    height: 70px; 
+}
+#alphaUpgrades button:hover{
+    transform: scale(1.5);
+    border-radius: 30px;
+}
+#minFluctDisp{
+    color: aqua;
+}
+#maxFluctDisp{
+    color: aqua;
+}
+#fluctCurrDisp{
+    color: aqua;
+}
+#entropyBoostDisp{
+    color: rgb(255, 78, 78);
+}
+#concEssBoostDisp{
+    color: greenyellow;
+}
+#concFluctBoostDisp{
+    color: aqua;
+}
+#aConcAmtDisp{
+    color: greenyellow;
+}
+#aspectSelection button{
+    display: block;
+}
+
