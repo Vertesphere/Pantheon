@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <button id="backToSelector">Back to aspects</button>
+    <div id="aspectSelection">
+        <button id="alphaAspectSelect">Alpha Aspect<br> select</button>
+        <button id="betaAspectSelect">Beta Aspect<br> locked</button>
+        <button id="gammaAspectSelect">Gamma Aspect<br> locked</button>
+        <button id="deltaAspectSelect">Delta Aspect<br> locked</button>
+        <button id="epsilonAspectSelect">Epsilon Aspect<br> select</button>
+        <button id="zetaAspectSelect">Zeta Aspect<br> locked</button>
+        <button id="etaAspectSelect">Eta Aspect<br> locked</button>
+        <button id="thetaAspectSelect">Theta Aspect<br> locked</button>
+        <button id="iotaAspectSelect">Iota Aspect<br> locked</button>
+        <button id="kappaAspectSelect">Kappa Aspect<br> locked</button>
+        <button id="lambdaAspectSelect">Lambda Aspect<br> locked</button>
+        <button id="muAspectSelect">Mu Aspect<br> locked</button>
+        <button id="aspectPlaceh"></button>
+        <button id="nuAspectSelect">Nu Aspect<br> locked</button>
+        <button id="xiAspectSelect">Xi Aspect<br> locked</button>
+        <button id="omicronAspectSelect">Omicron Aspect<br> locked</button>
+        <button id="piAspectSelect">Pi Aspect<br> locked</button>
+        <button id="rhoAspectSelect">Rho Aspect<br> locked</button>
+        <button id="sigmaAspectSelect">Sigma Aspect<br> locked</button>
+        <button id="tauAspectSelect">Tau Aspect<br> locked</button>
+        <button id="upsilonAspectSelect">Upsilon Aspect<br> locked</button>
+        <button id="phiAspectSelect">Phi Aspect<br> locked</button>
+        <button id="chiAspectSelect">Chi Aspect<br> locked</button>
+        <button id="psiAspectSelect">Psi Aspect<br> locked</button>
+        <button id="omegaAspectSelect">Omega Aspect<br> locked</button>
+    </div>
+    <div id="alphaAspect">
+        <div id="alphaTxtDisp">
+            <p>You have <span id="alphaAmtDisp">0</span> Alpha essence <br>[<span id="alphaGainDisp">0</span>/s]</p>
+        </div>      
+        <div id="alphaUpgrades">
+            <button class="aFirstRowUpgs" id="aUpgrade1" ><span>Initialize Reality Creation</span><br> Begin to produce α-Essence<br> Cost: 0</button>
+            <button id="aUpgrade2" class="aFirstRowUpgs"><span>Originate Reality</span><br> X2 base α-Essence production<br>Cost: 15</button>
+            <button id="aUpgrade3" class="aFirstRowUpgs"><span>Augment Reality</span><br> α-Essence <br>production X2<br> Cost: 42</button>
+            <button id="aUpgrade4" class="aFirstRowUpgs"><span>The Great Fluctuation</span><br> Unlock Fluctuation<br>Cost: 100</button>
+            <button id="aUpgrade5" class="aFirstRowUpgs"><span>Embrace Chaos</span><br> Unlock Entropy<br> Cost:237</button>
+            <button id="aUpgrade6" class="aFirstRowUpgs"><span>Unstable Vacuum</span><br> Min/Max fluctuation affected by upgrades bought<br> Cost: 2000</button>
+            <button id="aUpgrade7" class="aFirstRowUpgs"><span>Reality Reaugmentation</span><br>α-Essence production X10<br> Cost: 10000</button>
+            <button id="aUpgrade8" class="aFirstRowUpgs"><span>Primary Compression</span><br> Unlock α-Concentrate [+1 upgrades bought]<br> Cost: 100000</button>
+            <button id="aUpgrade9" class="aSecondRowUpgs"><span>Intense Disorder</span><br>Entropy formula is better<br>Cost: 1e6</button>
+            <button id="aUpgrade10" class="aSecondRowUpgs"><span>Fluctually expanded</span><br>Fluctuation minimum /5, maximum*5<br>Cost: 1e8</button>
+            <button id="aUpgrade11" class="aSecondRowUpgs"><span>Shapeless Amplifier</span><br>α-Essence gain are boosted by upgrades bought<br>Cost: 1e10</button>
+            <button id="aUpgrade12" class="aSecondRowUpgs"><span>Autofilling</span><br> Every second automatically buy first row upgrade as you can afford them<br>Cost: 1e14</button>
+            <button id="aUpgrade13" class="aSecondRowUpgs"><span>Void Instability</span><br>+0.55 α-Concentrate fluctuation boost<br>Cost: 5e14</button>
+            <button id="aUpgrade14" class="aSecondRowUpgs"><span>Compressed Realm</span><br>+13 α-Concentrate α-Essence gain boost<br>Cost: 1e17</button>
+            <button id="aUpgrade15" class="aSecondRowUpgs"><span>Chaotic Concentration</span><br>α-Concentrate now also boosts entropy formula<br>Cost: 1e19</button>
+            <button id="aUpgrade16" class="aSecondRowUpgs"><span>Real Space</span><br>Unlock Beta Aspect<br>Cost: 1e45</button>
+        </div> 
+        <div id="fluctDisp">
+            <p>Your Fluctuation oscillates from <span id="minFluctDisp">0</span> to <span id="maxFluctDisp">0.</span> [Currently: <span id="fluctCurrDisp">1</span>]</p>
+        </div>  
+        <div id="entropyDisp">
+            <p>Your Enthropy provides you with <span id="entropyBoostDisp">1</span> boost to α-Essence gain</p>
+        </div>
+        <div id="concentration">
+            <p>You have <span id="aConcAmtDisp">0</span> α-Concentrate</p>
+            <button id="concButton">Compress reality into <span id="aConcGainDisp">0</span> α-Concentrate</button>
+            <p>Effects:<br>
+            <span id="concEssBoostDisp">X1</span> α-Essence gain.<br>
+            <span id="concFluctBoostDisp">X1</span> Fluctuation Min/Max.<br>
+            <span id="concEntropyBoostDisp">+0 </span><span id="concEntropyBoostDisp2">Entropy base.</span> 
+            </p>
+        </div>
+
+           
+    </div>
+    <div id="betaAspect">
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/break_infinity.js@2"></script>
+    <script src="js/main.js"></script>
+    <script src="js/achievements.js"></script>
+    
+</body>
+</html>
